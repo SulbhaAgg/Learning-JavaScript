@@ -4,6 +4,7 @@ from left to right. The last line should only consist of asterisks, without any 
 
 //Challenge 1 
 
+Answer 1:
 function drawStairs(n) 
 {
   
