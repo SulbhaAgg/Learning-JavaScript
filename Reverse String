@@ -1,0 +1,21 @@
+
+Question 2: Create a function reverseString that accepts a string as a parameter and returns the reverse of that string.
+
+For example: 
+reverseString("I love testing") // should return "gnitset evol I"
+
+Answer 2: 
+// Challenge 1 
+function reverseString(string) 
+{
+  let temp = "" ;
+  for( let i = string.length-1 ; i >= 0 ; i-- )
+  {
+    temp += string[i] ;
+  }
+  return temp ;
+}
+
+
+// Uncomment the line below and click "run" to test your code
+console.log('Challenge 1:', reverseString("codesmith prep") === "perp htimsedoc" ? "Correct!" : "Try again!");
